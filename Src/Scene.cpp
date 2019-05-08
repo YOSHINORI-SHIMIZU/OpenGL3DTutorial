@@ -11,7 +11,7 @@
 */
 Scene::Scene(const char* name) : name(name)
 {
-
+	std::cout << "Scene コンストラクタ: " << name << "\n";
 }
 
 /*
@@ -20,6 +20,7 @@ Scene::Scene(const char* name) : name(name)
 Scene::~Scene()
 {
 	Finalize();
+	std::cout << "Scene デストラクタ: " << name << "\n";
 }
 
 /*
@@ -28,6 +29,7 @@ Scene::~Scene()
 void Scene::Play()
 {
 	isActive = true;
+	std::cout << "Scene Play: " << name << "\n";
 }
 
 
@@ -37,6 +39,7 @@ void Scene::Play()
 void Scene::Stop()
 {
 	isActive = false;
+	std::cout << "Scene Stop: " << name << "\n";
 }
 
 
@@ -46,6 +49,7 @@ void Scene::Stop()
 void Scene::Show()
 {
 	isVisible = false;
+	std::cout << "Scene Hide: " << name << "\n";
 }
 
 
