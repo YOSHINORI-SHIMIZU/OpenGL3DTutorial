@@ -11,16 +11,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Scene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
     <ClCompile Include="Src\Main.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Scene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Scene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
